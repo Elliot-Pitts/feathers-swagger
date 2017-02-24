@@ -120,7 +120,7 @@ export default function init (config) {
             description: `ID of ${model} to return`,
             in: 'path',
             required: true,
-            name: 'resourceId',
+            name: 'id',
             type: 'integer'
           }],
           responses: {
@@ -160,7 +160,7 @@ export default function init (config) {
             description: 'ID of ' + model + ' to return',
             in: 'path',
             required: true,
-            name: 'resourceId',
+            name: 'id',
             type: 'integer'
           }, {
             in: 'body',
@@ -183,7 +183,7 @@ export default function init (config) {
             description: 'ID of ' + model + ' to return',
             in: 'path',
             required: true,
-            name: 'resourceId',
+            name: 'id',
             type: 'integer'
           }, {
             in: 'body',
@@ -206,7 +206,7 @@ export default function init (config) {
             description: 'ID of ' + model + ' to return',
             in: 'path',
             required: true,
-            name: 'resourceId',
+            name: 'id',
             type: 'integer'
           }],
           produces: rootDoc.produces,
