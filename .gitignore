@@ -30,6 +30,8 @@ node_modules
 .lock-wscript
 
 # The compiled/babelified modules
-lib/
-
+# lib/
+src/
+test/
+example/
 db.sqlite
