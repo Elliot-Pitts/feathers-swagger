@@ -1,5 +1,5 @@
 {
-  "name": "feathers-swagger",
+  "name": "feathers-swagger-fix",
   "description": "Add documentation to your Featherjs services and feed them to Swagger UI.",
   "version": "0.3.2",
   "homepage": "https://github.com/feathersjs/feathers-swagger",
